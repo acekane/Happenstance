@@ -1,0 +1,451 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: none;
+}
+body
+{
+    font-family: "Lato", sans-serif;
+}
+/* .bar 
+{
+    position: sticky;
+    height: 110px;
+    width: 100%;
+    top: 0%;
+} */
+.main{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+}
+.nav{
+   
+    width: 90%;
+    margin: auto;
+    padding-top: 8px;
+    display: flex;
+    justify-content: end;
+}
+.nav a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    /* padding-right: 25px; */
+}
+.store
+{
+    padding-right: 25px;
+    letter-spacing: 0.5px;
+}
+.heart
+{
+    padding-right: 25px;
+    letter-spacing: 0.5px;
+}
+.login
+{
+    padding-right: 25px;
+    letter-spacing: 0.5px;
+}
+.navigation{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+}
+.navbar{
+    height: 70px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1{
+   
+    width: 200px;
+}
+.nav1 img{
+    height: 30px;
+    width: 100%;
+}
+.container{
+    
+    width: 25%;
+}
+.container ul{
+    display: flex;
+}
+.container li{
+    list-style: none;
+}
+.container ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    color: black;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+}
+.search{
+    height: 60px;
+    width: 250px;
+    position: relative;
+    padding-top: 10px;
+    
+}
+.search input{
+    width: 100%;
+    border-radius: 25px;
+    height: 40px;
+    border: 1px solid gray;
+}
+input::placeholder{
+    padding-left: 45px;
+    font-size: 19px;
+}
+
+.search i{
+    position: absolute;
+    top: 19px;
+    left: 15px;
+    font-size: 20px;
+}
+.section{
+    height: 500px;
+    width: 100%;
+}
+.sec{
+    height: 500px;
+    width: 90%;
+    background-color: aliceblue;
+    margin: auto;
+}
+.sec img{
+    height: 500px;
+    width: 100%;
+}
+h3
+{
+    margin: auto;
+    text-align: center;;
+    width: 90%;
+    column-gap: 10px;
+    padding: 20px;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+h3::before
+{
+    content: "";
+    height: 1px;
+    width: 50vw;
+    background-color: grey;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    z-index: -3;
+}
+h3::after
+{
+    content: "";
+    height: 1px;
+    width: 50vw;
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    z-index: -2;
+}
+span
+{
+    background: white;
+}
+.content{
+    height: 600px;
+    width: 100%;
+   
+}
+.cont{
+    height: 600px;
+    width: 90%;
+    margin: auto;
+}
+.section1
+{
+    height: 290px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.section1 img{
+    height: 290px;
+    width: 24.5%;
+    filter: grayscale(0);
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.section2
+{
+        margin-top: 0.5%;
+        height: 290px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between}   
+.section2 img{
+    height: 290px;
+    width: 24.5%;
+    filter: grayscale(0);
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.cont img:hover{
+    filter: grayscale(100);
+    background:linear-gradient(rgba(0,0,00.5),rgba(0,0,0,0.5));
+}
+.content2{
+    height: 1200px;
+    width: 100%;
+}
+.vid{
+    height: 1200px;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+}
+.video1
+{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+.video1 video
+{
+    height: 400px;
+    width: 24%;
+    padding-top: 25px;
+
+}
+.video1 img
+{
+    height: 400px;
+    width: 24%;
+    padding-top: 25px;
+
+}
+.div
+{
+    height: 20px;
+    width: 100%;
+
+}
+.div ul
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.div ul li
+{
+    list-style: none;
+    font-size: 12px;
+    color: black;
+    padding-right: 25px;
+}
+
+.video2
+{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+}
+.video2 video
+{
+    height: 400px;
+width: 24%;
+padding-top: 25px;
+}
+.video2 img{
+    height: 400px;
+    width: 24%;
+    padding-top: 25px;
+}
+ 
+.div2
+{
+    height: 20px;
+    width: 100%;
+
+}
+.div2 ul
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.div2 ul li
+{
+    list-style: none;
+    font-size: 12px;
+    color: black;
+    padding-right: 25px;
+}
+
+.video3
+{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+}
+.video3 video
+{
+    height: 400px;
+width: 24%;
+padding-top: 25px;
+
+}
+.video3 img{
+    height: 400px;
+    width: 24%;
+    padding-top: 25px;
+}
+.div3
+{
+    height: 20px;
+    width: 100%;
+
+}
+.div3 ul
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.div3 ul li
+{
+    list-style: none;
+    font-size: 12px;
+    color: black;
+    padding-right: 25px;
+}
+
+    
+button{
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 25px;
+    border: 1px solid gray;
+}
+.footer{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(221, 220, 220);
+    position: relative;
+}
+.foot{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box1 h2{
+    color: black;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.box1{
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+}
+.box1 li{
+    padding-top: 20px;
+    list-style: none;
+}
+.box1 li a
+{
+    text-decoration: none;
+    color: black;
+}
+.follow
+{
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+}
+
+.follow h3
+{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    column-gap: 10px;
+    padding: 10px 10px;
+    letter-spacing: 0.5px;
+   
+}
+.follow h3::before
+{
+    content: "";
+    height: 1px;
+    width: 50vw;
+    background-color: grey;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    z-index: -3;
+}
+.follow h3::after
+{
+    content: "";
+    height: 1px;
+    width: 50vw;
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    z-index: -2;
+}
+.follow span
+{
+    background-color: rgb(221, 220, 220);
+}
+.social
+{
+    display: flex;
+    height: 50px;
+    width: 90%;
+    border-radius: 50%;
+    margin: auto;
+}
+.icon
+{
+    height: 50px;
+    width: 440px;
+    margin: auto;
+}
+.icon img
+{
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+}
+.para
+{
+    margin-top: 30px;
+}
+p
+{ 
+    text-align: center;
+}
